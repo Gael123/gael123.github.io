@@ -48,20 +48,97 @@ position: -webkit-sticky; /* Safari */
 .banner p {
   font-size: 20px;
   color: white;
-  opacity: .7;
+text-align: center;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.about {
+  color:#fff;
+  background: #eeeeee1f;
+  width:348px;
+  height:65vh;
+  border-radius:24px;
+  opacity: 1;
+  display:block;
+  position: relative;
+
+
+}
+.btn-flat {
+  color: white;
+  /*padding: 8px 24px;*/
+  border-radius: 4px;
+  background:transparent;
+  transition: background 0.3s ease;
+  text-decoration:none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 24px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.btn-flat:hover {
+  background: #eee;
+  color: green;
+  /**/
+}
+.page-item a{
+  text-decoration:none;
+  color:white;
+  text-decoration:none;
+  font-size: 16px;
+}
+ .about-tabs{
+
+list-style: none;
+/*display :flex;
+justify-content: center;
+*/
+ }
+ .about-tabs a{
+text-decoration:none;
+  color:white;
+  text-decoration:none;
+  font-size: 16px;
+
+ }
+.social {
+list-style: none;
+display :flex;
+justify-content: space-around;
+position: absolute;
+  right: 176px;
+  bottom: -25px;
+  width: 176px;
+
+}
+.social a{
+
+  text-decoration:none;
+  color:white;
+  text-decoration:none;
+  font-size: 16px;
+
+}
+
+.cta-primary{
+  background: yellow;
+  padding:12px 24px;
+ border-radius:12px;
+ margin-top: 12px;
 }
 
 
 
 
-
-
-
 .img-small{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 348px;
+  height: 320px;
+  border-radius: 24px;
+  object-fit: cover;
 }
 
 
