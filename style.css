@@ -18,6 +18,32 @@ position: -webkit-sticky; /* Safari */
 
 
 }
+.navbar-lewagon {
+  display: flex;
+  justify-content: space-between;
+  background:transparent;
+  list-style: none;
+
+}
+
+.navbar-lewagon .navbar-collapse {
+  /*flex-grow: 0;*/
+
+  color:#fff;
+  background:transparent;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+img#navbarDropdown.avatar.dropdown-toggle {
+  height:50px;
+  width:50px;
+  border-radius: 25px;
+}
+
+
 
 .banner {
   background-size: cover;
