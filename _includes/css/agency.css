@@ -5,7 +5,7 @@
  */
 
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -62,11 +62,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: transparent;
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: transparent;
 }
 
 .btn-primary {
@@ -75,7 +75,7 @@ h6 {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 .btn-primary:hover,
@@ -193,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 .navbar-default .nav li a {
@@ -225,13 +225,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: transparent;
 }
 
 @media(min-width:768px) {
@@ -257,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color:transparent;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -279,8 +279,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 header .intro-text .intro-lead-in {
@@ -290,7 +290,9 @@ header .intro-text .intro-lead-in {
     font-style: italic;
     line-height: 22px;
 }
-
+header.container{
+  width:100%;
+}
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -353,6 +355,11 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+#page-top{
+  background: #ecf0f1;
+}
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -657,14 +664,14 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-color: #fff;
+    /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #000;
 }
 
 section#contact .form-group {
