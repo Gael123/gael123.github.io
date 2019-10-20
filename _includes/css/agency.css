@@ -796,7 +796,12 @@ ul.social-buttons li a:active {
 .btn:active:focus {
     outline: 0;
 }
+.header-container{
+ background-position: center;
+ background-size: cover;
 
+
+}
 .portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
