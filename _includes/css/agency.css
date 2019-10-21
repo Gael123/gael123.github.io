@@ -164,7 +164,10 @@ fieldset[disabled] .btn-xl.active {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
-
+row {
+    margin-left: 0;
+    margin-right: 0;
+}
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
@@ -285,7 +288,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    margin-bottom:16px;
+    /*margin-bottom:16px;*/
 
 }
 
@@ -307,6 +310,7 @@ header.container{
   height:100vh;
   background-size:cover;
   background-position: center;
+  margin:0px;
 
 }
 header .intro-text .intro-heading {
@@ -349,7 +353,10 @@ header .intro-text .intro-heading {
 }
 #services{
  background-color:#128f76;
+
+ /*background-color:transparent;*/
  color:#12788f;
+ padding:150px 0;
 
 
 
@@ -361,7 +368,7 @@ header .intro-text .intro-heading {
   color:#edecf1;
 }
 section {
-    padding: 100px 0;
+    padding: 100px 24px;
 }
 
 section h2.section-heading {
@@ -395,6 +402,10 @@ section h3.section-subheading {
 
 #page-top{
   background: #ecf0f1;
+  /*position: -webkit-sticky; /* Safari */*/
+  position: sticky;
+  /*opacity:.2;*/
+  /*top: 0;*/
 }
 
 #about{
@@ -712,6 +723,7 @@ aside.clients img {
 }
 section#team.bg-light-gray{
   display:block;
+  background: #299882;
 }
 .team{
   display: block;
