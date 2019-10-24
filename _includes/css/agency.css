@@ -373,9 +373,11 @@ section {
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
-    color:#e5e5e5;
+    margin-bottom: 0px;
+    font-size: 32px;
+    color:#bed0f9;
+    padding: 64px;
+    opacity:1;
 }
 
 section h3.section-subheading {
@@ -389,7 +391,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        /*padding: 150px 0;*/
     }
 }
 
@@ -411,6 +413,7 @@ section h3.section-subheading {
 #about{
   background-color:#128f76;
   color:#fff;
+  font-size:24px;
 }
 
 #portfolio .portfolio-item {
@@ -709,7 +712,7 @@ section h3.section-subheading {
 }
 
 .team-member h4 {
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0;
     text-transform: none;
 }
@@ -722,14 +725,14 @@ aside.clients img {
     margin: 50px auto;
 }
 section#team.bg-light-gray{
-  display:block;
+  display:grid;
+  grid-template-columns: 1fr;
+
   background: #299882;
 }
-.team{
-  display: block;
-}
+
 section#contact {
-    background-color: #fff;
+    background-color: #ccccccbd;
     /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
     background-position: center;
     background-repeat: no-repeat;
@@ -796,6 +799,7 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
+    font-size:24px;
 }
 
 footer span.copyright {
@@ -818,7 +822,8 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    display: block;
+    display: flex;
+
     width: 40px;
     height: 40px;
     border-radius: 100%;
@@ -944,36 +949,38 @@ body {
 }
 
 .card-product {
-  overflow: hidden;
-  height: 120px%;
-  background: #128f76;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  /*overflow: hidden;*/
+  height: 120px;
+  background:transparent;
+  /*box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
   display: flex;
   /*justify-content: space-around;*/
   align-items: center;
   /*width:100%;*/
+  color:white;
 }
 
 .card-product img {
   height: 100%;
   width: 120px;
-  object-fit: cover;
+  /*object-fit: cover;*/
   border-radius: 4px;
   /*overflow:hidden;*/
 }
 
 .card-product h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.4;
-  opacity: .7;
+  /*opacity: .7;*/
   margin-bottom: 0;
   margin-top: 8px;
+  color:white;
 }
 
 .card-product .card-product-infos {
