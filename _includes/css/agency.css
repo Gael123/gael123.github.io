@@ -369,8 +369,12 @@ header  .intro-heading {
 }
 .learn{
 display :flex;
-justify-content: center;
-
+align-items: center;
+/*justify-content: center;*/
+border:none;
+background-color: #000000ad;
+background-size:cover;
+background-position: center;
 }
 #services p{
   font-size: 24px;
