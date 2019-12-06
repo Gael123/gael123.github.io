@@ -745,7 +745,7 @@ section#team.bg-light-gray{
 }
 
 section#contact {
-    /*background-color: #ccccccbd;*/
+    background-color: #ccccccbd;
     /*background-image: url('{{ site.baseurl }}/img/map-image.png');*/
     }
 
@@ -806,6 +806,10 @@ section#contact:-ms-input-placeholder {
 section#contact .text-danger {
     color: #e74c3c;
 }
+
+
+
+
 
 footer {
     padding: 25px 0;
@@ -1000,7 +1004,6 @@ body {
 .social-li{
 
 list-style: none;
-display:flex;
-justify-content: space-around;
+text-align: center;
 
 }
