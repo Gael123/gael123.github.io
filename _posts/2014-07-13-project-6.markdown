@@ -1,15 +1,14 @@
 ---
 title:rails-heroes-for-hire
-subtitle: Graphic Design
+subtitle:Sports App Build and Design
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: jerop.gif
+thumbnail: jerop.gif
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: A sports application that enable extreme sport enthusiasts to connect ,share live conditions as well as experiences.
 ---
