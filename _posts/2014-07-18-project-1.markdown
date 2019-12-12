@@ -1,5 +1,5 @@
 ---
-title: Dreams
+title: soulwind
 subtitle: Website Design
 layout: default
 modal-id: 1
@@ -10,6 +10,6 @@ alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: sports App
+description: An App for extreme sports enthusiasts mainly kitesurfers  to share liveconditions about their current location and see wht other experience othe r people have had at different seasons and other times.
 
 ---

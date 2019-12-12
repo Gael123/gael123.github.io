@@ -126,9 +126,10 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color:#0000009c;
+    color:#128f76;;
     text-align:center;
-    background-color: ;
+    background-color: #222;
+    opacity: 1;
 }
 
 .btn-xl:hover,
@@ -434,17 +435,24 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    background: #fff;
+    color:#404042;
 }
 .text-muted{
-  color:#fff;
+  color:#404042;
 
+}
+.portfolio-heading{
+
+  color:#404042;
 }
 
 #portfolio .portfolio-item .portfolio-link {
-    display: block;
+    /*display: block;*/
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -460,7 +468,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
