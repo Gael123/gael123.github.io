@@ -1,15 +1,14 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Wing It Project
+subtitle: Wing-it travel app
 layout: default
 modal-id: 6
-date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+date: 2019-09-05
+img: wingit.png
+thumbnail: yann.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
+project-date: September 2019
+client: Wing it
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+description: Wing It is a travel app developed for the sponatneous traveller who is keen to discover hidden gems ,beat the crowds and maximise the moment.The app was developed in Ruby,Javascript,HTML and scss
 ---
