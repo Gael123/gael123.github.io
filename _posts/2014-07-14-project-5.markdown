@@ -1,15 +1,15 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Heroes for hire
+subtitle: Airbnb
 layout: default
-modal-id:
-date: 2014-07-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+modal-id: 3
+date: 2019-09-01
+img: krut.jpeg
+thumbnail: hero.jpg
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+description: heroes for hire is a web app developed in ruby ,the first app I built with other developers ,it's an Airbnb clone like a marketplace
 
 ---

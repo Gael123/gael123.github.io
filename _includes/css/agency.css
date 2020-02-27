@@ -841,7 +841,7 @@ footer ul.quicklinks {
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    line-height: 20px;
 }
 
 ul.social-buttons {

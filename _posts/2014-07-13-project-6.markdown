@@ -5,7 +5,7 @@ layout: default
 modal-id: 2
 date: 2019-09-05
 img: photospot.jpeg
-thumbnail: yann.jpg
+thumbnail: travel.jpg
 alt: image-alt
 project-date: September 2019
 client: https://wing-it-travel.herokuapp.com
