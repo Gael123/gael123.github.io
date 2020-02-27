@@ -11,7 +11,7 @@ body {
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    color: #fff;
 }
 
 .text-primary {
@@ -24,7 +24,7 @@ p {
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 a,
@@ -36,7 +36,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #fff;
 }
 
 a:hover,
@@ -126,9 +126,10 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color:#0000009c;
+    color:#e5e5e5;;
     text-align:center;
-    background-color: ;
+    background-color: #222;
+    opacity: 1;
 }
 
 .btn-xl:hover,
@@ -323,7 +324,7 @@ header  .intro-heading {
     font-size: 24px;
     font-weight: 300;
     line-height: 24px;
-    color:#128f76;
+    color:#f3fdfb;
 }
 
 @media(min-width:768px) {
@@ -402,6 +403,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    color:#fff;
 }
 
 @media(min-width:768px) {
@@ -434,17 +436,24 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    background: #fff;
+    color:#404042;
 }
 .text-muted{
-  color:#fff;
+  color:#404042;
 
+}
+.portfolio-heading{
+
+  color:#404042;
 }
 
 #portfolio .portfolio-item .portfolio-link {
-    display: block;
+    /*display: block;*/
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -460,7 +469,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 1;
+    /*opacity: 1;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -505,7 +514,8 @@ section h3.section-subheading {
 
 #portfolio * {
     z-index: 2;
-    background:#b73427;
+    background:#2f1645;
+   /* opacity:2;*/
 }
 
 @media(min-width:767px) {
@@ -881,6 +891,8 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    color:#fff;
+    background:#8f1223;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -914,12 +926,12 @@ ul.social-buttons li a:active {
     right: 25px;
     width: 75px;
     height: 75px;
-    background-color: transparent;
+    /*background-color: transparent;*/
     cursor: pointer;
 }
 
 .portfolio-modal .close-modal:hover {
-    opacity: .3;
+    /*opacity: .3;*/
 }
 
 .portfolio-modal .close-modal .lr {
@@ -937,7 +949,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -945,7 +957,7 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: #fff;
 }
 
 ::selection {
@@ -1007,5 +1019,7 @@ body {
 
 list-style: none;
 text-align: center;
-
+color:white;
+display:flex;
+justify-content: space-between;
 }
