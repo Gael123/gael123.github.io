@@ -4,11 +4,11 @@ subtitle: Wing-it travel app
 layout: default
 modal-id: 6
 date: 2019-09-05
-img: wingit.png
+img: photospot.jpeg
 thumbnail: yann.jpg
 alt: image-alt
 project-date: September 2019
-client: Wing it
+client: https://wing-it-travel.herokuapp.com
 category: Web Development
 description: Wing It is a travel app developed for the sponatneous traveller who is keen to discover hidden gems ,beat the crowds and maximise the moment.The app was developed in Ruby,Javascript,HTML and scss
 ---
