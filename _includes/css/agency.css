@@ -349,7 +349,7 @@ header  .intro-heading {
         font-size: 72px;
         font-weight: 700;
         line-height: 75px;
-        padding:325px;
+        padding:180px;
     }
 }
 .introtext{
@@ -445,7 +445,7 @@ section h3.section-subheading {
 }
 .portfolio-heading{
 
-  color:#404042;
+  color:#fff;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -1023,3 +1023,8 @@ color:white;
 display:flex;
 justify-content: space-between;
 }
+.header-body p{
+  font-size: 32px;
+  padding:96px;
+}
+.header-body
