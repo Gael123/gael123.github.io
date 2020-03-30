@@ -8,7 +8,7 @@ img: krut.jpeg
 thumbnail: hero.jpg
 alt: image-alt
 project-date: April 2014
-client: Start Bootstrap
+client: Link;https://soulwind.herokuapp.com/
 category: Web Development
 description: heroes for hire is a web app developed in ruby ,the first app I built with other developers ,it's an Airbnb clone like a marketplace
 

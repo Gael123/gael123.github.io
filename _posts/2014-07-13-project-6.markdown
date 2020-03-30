@@ -10,6 +10,7 @@ alt: image-alt
 project-date: September 2019
 client: https://wing-it-travel.herokuapp.com
 category: Web Development
-description: Wing It is a travel app developed for the sponatneous traveller who is keen to discover hidden gems ,beat the crowds and maximise the moment.The app was developed in Ruby,Javascript,HTML and SCSS
+description: Wing It is a travel app developed for the sponatneous traveller who is keen to discover hidden gems ,beat the crowds and maximise the moment.The app was developed in Ruby,Javascript,HTML and SCSS.Link:https://wing-it-travel.herokuapp.com/
+
 
 ---
