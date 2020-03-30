@@ -334,7 +334,7 @@ header  .intro-heading {
         padding-bottom: 32px;
         font-size: 72px;
     }
-transparent
+
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
@@ -359,10 +359,10 @@ transparent
   height:48vh;
 }
 #services{
- background-color:#128f76;
+ /*background-color:#128f76;*/
 
- /*background-color:transparent;*/
- color:#12788f;
+ background-color:transparent;
+ color:#e74c3c;
  /*padding:150px 0;*/
 
 
@@ -381,19 +381,19 @@ background-position: center;
 color:#128f76;
 }
 #services p{
-  font-size: 24px;
+  font-size: 18px;
   color:#edecf1;
 }
 section {
-    padding: 100px 24px;
+    /*padding: 100px 24px;*/
 }
 
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 0px;
     font-size: 32px;
-    color:#bed0f9;
-    padding: 64px;
+    color:#fff;
+    padding: 0px;
     opacity:1;
 }
 
@@ -409,7 +409,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        /*padding: 150px 0;*/
+        padding: 2px 0;
     }
 }
 
@@ -431,7 +431,7 @@ section h3.section-subheading {
 #about{
   background-color:#128f76;
   color:#fff;
-  font-size:24px;
+  font-size:16px;
 }
 
 #portfolio .portfolio-item {
@@ -470,7 +470,7 @@ section h3.section-subheading {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    /*opacity: 1;*/
+    opacity: 1;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -514,8 +514,8 @@ section h3.section-subheading {
 }
 
 #portfolio * {
-    z-index: 2;
-    background:#2f1645;
+    z-index: 4;
+    background:transparent;
    /* opacity:2;*/
 }
 
@@ -828,6 +828,7 @@ footer {
     padding: 25px 0;
     text-align: center;
     font-size:24px;
+    color:#fff;
 }
 
 footer span.copyright {
