@@ -182,14 +182,14 @@ row {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+    color: transparent;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: transparent; }};
 }
 
 .navbar-default .navbar-collapse {
@@ -197,7 +197,7 @@ row {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: transparent;
     background-color: transparent;
 }
 
@@ -224,7 +224,7 @@ row {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -239,7 +239,7 @@ row {
     background-color: transparent;
 }
 
-@media(min-width:768px) {
+@media(min-width:375px) {
     .navbar-default {
         padding: 16px 0;
         border: 0;
@@ -385,7 +385,7 @@ color:#128f76;
   color:#edecf1;
 }
 section {
-    /*padding: 100px 24px;*/
+    padding: 100px 24px;
 }
 
 section h2.section-heading {
@@ -407,7 +407,7 @@ section h3.section-subheading {
     color:#fff;
 }
 
-@media(min-width:768px) {
+@media(min-width:375px) {
     section {
         padding: 2px 0;
     }
@@ -422,7 +422,7 @@ section h3.section-subheading {
 
 #page-top{
   background: #ecf0f1;
-  /*position: -webkit-sticky; /* Safari */*/
+  position: -webkit-sticky; /* Safari */
   position: sticky;
   /*opacity:.2;*/
   /*top: 0;*/
@@ -519,7 +519,7 @@ section h3.section-subheading {
    /* opacity:2;*/
 }
 
-@media(min-width:767px) {
+@media(min-width:375px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -638,7 +638,7 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-@media(min-width:768px) {
+@media(min-width:375px) {
     .timeline:before {
         left: 50%;
     }
@@ -675,7 +675,7 @@ section h3.section-subheading {
     }
 }
 
-@media(min-width:992px) {
+@media(min-width:414px) {
     .timeline>li {
         min-height: 150px;
     }
@@ -820,7 +820,11 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
-
+@media(min-width:375px) {
+    #contact {
+        margin: 0 0 30px;
+    }
+}
 
 
 
@@ -1028,5 +1032,23 @@ justify-content: space-between;
 .header-body p{
   font-size: 16px;
   color:#325a75;
+}
+.team{
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+}
+@media(max-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+
 }
 
