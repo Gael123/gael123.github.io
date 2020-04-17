@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 url: gael123.github.io
-baseurl: /gael123.github.io
+baseurl:  /agency-jekyll-theme/
 
 title: UI designer/Developer
 email: gael.jerop@yahoo.com
@@ -53,3 +53,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+markdown: kramdown
+permalink: pretty

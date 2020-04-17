@@ -5,7 +5,7 @@
  */
 
 body {
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
@@ -239,7 +239,7 @@ row {
     background-color: transparent;
 }
 
-@media(min-width:375px) {
+@media(min-width:768px) {
     .navbar-default {
         padding: 16px 0;
         border: 0;
@@ -1023,11 +1023,11 @@ body {
 }
 .social-li{
 
-list-style: none;
-text-align: center;
+/*list-style: none;
+text-align: center;*/
 color:white;
-display:flex;
-justify-content: space-between;
+/*display:flex;
+justify-content: space-between;*/
 }
 .header-body p{
   font-size: 16px;
@@ -1049,6 +1049,13 @@ grid-template-columns:1fr 1fr 1fr 1fr;
   }
 }
 
+
+}
+
+
+.container-footer{
+  display:flex;
+  justify-content: space-between;
 
 }
 
