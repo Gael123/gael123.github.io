@@ -19,19 +19,19 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-background-color: #3b3736;
+background-color: #222;
 
 
 
 }
 
 .text-muted {
-    color: #{{ site.data.template.color.muted }};
+    color: #222;;
 
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color:#e0911b;
 }
 
 p {
@@ -73,6 +73,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+    color:
 }
 
 .img-centered {
@@ -372,6 +373,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color:#fff;
 }
 
 #portfolio .portfolio-item {
@@ -428,6 +430,7 @@ section h3.section-subheading {
     max-width: 400px;
     text-align: center;
     background-color: #fff;
+    color:#9e9e9e;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {

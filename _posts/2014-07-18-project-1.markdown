@@ -10,6 +10,6 @@ alt: image-alt
 project-date: Jan 2020
 client: http://soulwind.herokuapp.com/
 category: Web Development
-description: An App for extreme sports enthusiasts mainly kitesurfers  to share live conditions about their current location and see wht other experience othe r people have had at different seasons and other times.Link;https://soulwind.herokuapp.com/
+description: An App for extreme sports enthusiasts mainly kitesurfers  to share live conditions about their current location and see what other experience othe r people have had at different seasons and other times.Link;https://soulwind.herokuapp.com/
 
 ---
